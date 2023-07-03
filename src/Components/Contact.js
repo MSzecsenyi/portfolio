@@ -4,7 +4,7 @@ import {FaLinkedin} from "react-icons/fa"
 
 const Contact = () => {
   return (
-    <div className="contact-page-wrapper">
+    <div className="contact-page-wrapper" id="contact">
       <h1 className="primary-heading">Contact me!</h1>
       <h1 className="primary-text">I'd be delighted to work with you!</h1>
       <div className="contact-form-container">

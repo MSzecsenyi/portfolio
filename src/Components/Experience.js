@@ -3,7 +3,7 @@ import Urdisco from "../Assets/urdisco.png";
 import Kerraktar from "../Assets/kerraktar.png";
 import BauApp from "../Assets/bauapp.webp";
 
-const Projects = () => {
+const Experience = () => {
   const projectInfoData = [
     {
       image: Urdisco,
@@ -57,7 +57,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="work-section-wrapper">
+    <div className="work-section-wrapper" id="experience">
       <div className="work-section-top">
         <h1 className="primary-heading">Experience</h1>
         <p className="primary-text">
@@ -79,4 +79,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Experience;

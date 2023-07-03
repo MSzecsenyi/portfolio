@@ -3,10 +3,10 @@ import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
 import Navbar from "./Navbar";
 
-const Home = () => {
+const Home = (handleNavigation) => {
   return (
-    <div className="home-container">
-      <Navbar />
+    <div className="home-container" id="home">
+      <Navbar handleNavigation={handleNavigation} />
       <div className="home-banner-container">
         <div className="home-bannerImage-container">
           <img src={BannerBackground} alt="" />
