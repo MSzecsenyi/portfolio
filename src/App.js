@@ -3,7 +3,6 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Experience from "./Components/Experience";
-// import Footer from "./Components/Footer";
 
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
       <About />
       <Experience />
       <Contact />
-      {/* <Footer /> */}
     </div>
   );
 }

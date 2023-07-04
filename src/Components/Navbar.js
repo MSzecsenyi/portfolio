@@ -12,7 +12,6 @@ import HomeIcon from "@mui/icons-material/Home";
 import Person from "@mui/icons-material/Person";
 import AutoGraphIcon from '@mui/icons-material/AutoGraph';
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import { Divider } from "@mui/material";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
