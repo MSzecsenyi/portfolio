@@ -9,8 +9,11 @@ const Contact = () => {
       <h1 className="primary-text">I'd be delighted to work with you!</h1>
       <div className="contact-form-container">
         <div className="contact-email-container">
-          <p className="contact-text">Email:</p>
+          <p className="upper-contact-text">Email:</p>
           <a href="mailto:szecsenyi.marton+portfolio@gmail.com" className="contact-email">szecsenyi.marton@gmail.com</a>
+        </div>
+        <div className="contact-email-container">
+          <p className="lower-contact-text">Phone: +36 20 441 1768</p>
         </div>
         <div>
           <a href="https://github.com/MSzecsenyi">

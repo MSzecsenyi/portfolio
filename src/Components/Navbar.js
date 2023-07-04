@@ -44,13 +44,12 @@ const Navbar = () => {
       <div>
       </div>
       <div className="navbar-links-container">
-        {/* <Link className="nav-button" to="home" smooth={true} duration={400}>Home</Link> */}
-        <Link className="nav-button"k to="about" smooth={true} duration={400}>About</Link>
+        <Link className="nav-button" to="about" smooth={true} duration={400}>About</Link>
         <Link className="nav-button" to="experience" smooth={true} duration={400}>Experience</Link>
         <Link className="primary-button" to="contact" smooth={true} duration={400} >Contact</Link>
       </div>
       <div className="navbar-menu-container">
-        <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
+        <HiOutlineBars3 onClick={() => setOpenMenu(true)} className="drawer-open-icon" />
       </div>
       <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="right">
         <Box
@@ -58,24 +57,24 @@ const Navbar = () => {
           role="presentation"
           onClick={() => setOpenMenu(false)}
           onKeyDown={() => setOpenMenu(false)}
+          className="drawer-container"
         >
           <List>
             {menuOptions.map((item) => (
               <ListItem key={item.text} disablePadding>
                 <Link to={item.target} smooth={true} duration={400}>
                   <ListItemButton onClick={() => setOpenMenu(false)}>
-                    <ListItemIcon>{item.icon}</ListItemIcon>
-                    <ListItemText primary={item.text} />
+                    <ListItemIcon className="drawer-content">{item.icon}</ListItemIcon>
+                    <ListItemText primary={item.text}  className="drawer-content" />
                   </ListItemButton>
                 </Link>
               </ListItem>
             ))}
           </List>
-          <Divider />
         </Box>
       </Drawer>
     </nav>
   );
 };
 
-export default Navbar;
+export default Navbar; 

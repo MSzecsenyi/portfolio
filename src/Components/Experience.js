@@ -1,7 +1,7 @@
 import React from "react";
 import Urdisco from "../Assets/urdisco.png";
 import Kerraktar from "../Assets/kerraktar.png";
-import BauApp from "../Assets/bauapp.webp";
+import BauApp from "../Assets/bauapp.png";
 
 const Experience = () => {
   const projectInfoData = [
