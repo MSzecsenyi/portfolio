@@ -43,7 +43,7 @@ const Experience = () => {
       title: "BauApp",
       text: (
         <div className="work-details-container">
-          <p><i>Developed several versions of BauApp, working together with the dev team in an inustrual setting</i></p><br/>
+          <p><i>Developed several versions of BauApp, working together with the dev team in an industrual setting</i></p><br/>
           <p><b>Experience gained in:</b></p>
           <ul>
             <li>SQL</li>
