@@ -383,9 +383,10 @@ nav {
   }
   .contact-form-container {
     padding: 0.5rem !important;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 350px;
     border-radius: 1rem !important;
   }
   .App {
